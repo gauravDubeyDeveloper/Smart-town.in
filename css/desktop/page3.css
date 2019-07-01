@@ -61,3 +61,29 @@ p{
     } */ */
 
 }
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0.4rem; */
+}
+.btn {
+    /* display:inline-block; */
+    /* text-align: centser; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding:8px 10px;
+    margin:0.4rem;
+    text-decoration:none;
+    color:#333;
+    background:chartreuse;
+    border:none;
+    border-radius:3rem;
+}
+
+.btn:hover{
+    background:#333;
+    color:#fff;
+}

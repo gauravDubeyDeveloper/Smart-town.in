@@ -19,13 +19,13 @@ body{
     25%{
         top:0;
         left:950px;
-        background:url(../../img/ooooo.gif)no-repeat center center/cover;
+        background:url(../../img/mmmm.gif)no-repeat center center/cover;
         /* border-radius:50% 0 0 0; */
     }
     50%{
         top:300px;
         left:950px;
-        background:url(../../img/nnnn.gif)no-repeat center center/cover;;;
+        background:url(../../img/nnnn.gif)no-repeat center center/cover;
         /* border-radius:50% 50% 0 0; */
     }
     75%{

@@ -1,45 +1,72 @@
 body{
-    background:url(../../img/rrr.jpeg)no-repeat center center/cover;
-    /* width: 1000px; */
+    background:#333;
 }
-header{
-display:flex;
-flex-direction:column;
-justify-content: center;
-align-items:center;
-text-align:center;
-height:100vh;
-padding: 0 2rem;
-margin-bottom:0.75rem;
-font-size: 20px;
---animate-speed: 1s;
+
+.box{
+    background:url(../../img/mmm.gif)no-repeat center center/cover;
+    width: 400px;
+    height:300px;
+    position: relative;
+    top:0;
+    left:0;
+    animation:animate1 5s forwards ease-in-out;
 
 }
 
-h1{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 100px;
-color:#fff;
+
+
+@keyframes animate1{
+    25%{
+        top:0;
+        left:950px;
+        background:url(../../img/nnnn.gif)no-repeat center center/cover;
+        /* border-radius:50% 0 0 0; */
+    }
+    50%{
+        top:300px;
+        left:950px;
+        background:url(../../img/nnnn.gif)no-repeat center center/cover;;;
+        /* border-radius:50% 50% 0 0; */
+    }
+    75%{
+        top:300px;
+        left:0;
+        background:url(../../img/44.gif)no-repeat center center/cover;
+        /* border-radius:50% 50% 50% 0; */
+    }
+    100%{
+        top:0;
+        left:0;
+        background:url(../../img/vvvv.gif)no-repeat center center/cover;
+        /* border-radius:50% 50% 50% 50%; */
+
+    }
+
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:14rem;
 }
 .btn {
-display:inline-block;
-/* display: flex; */
-justify-content: center;
-align-items: center;
-padding:8px 10px;
-text-decoration:none;
-color:#333;
-background:chartreuse;
-border:none;
-border-radius:3rem;
-font-size: 30px;
+    display:inline-block;
+    /* text-align: centser; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding:8px 10px;
+    margin:0.4rem;
+    text-decoration:none;
+    color:#333;
+    background:chartreuse;
+    border:none;
+    border-radius:3rem;
 }
+
 
 .btn:hover{
-background:#333;
-color:#fff;
-}
-
-h1.a{
-text-shadow: 0.2rem 0.2rem steelblue;
+    background:orange;
+    color:#fff;
 }

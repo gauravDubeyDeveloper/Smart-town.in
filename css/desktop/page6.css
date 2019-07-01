@@ -1,0 +1,45 @@
+body{
+    background:url(../../img/rrr.jpeg)no-repeat center center/cover;
+    /* width: 1000px; */
+}
+header{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+text-align:center;
+height:100vh;
+padding: 0 2rem;
+margin-bottom:0.75rem;
+font-size: 20px;
+--animate-speed: 1s;
+
+}
+
+h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 100px;
+color:#fff;
+}
+.btn {
+display:inline-block;
+/* display: flex; */
+justify-content: center;
+align-items: center;
+padding:8px 10px;
+text-decoration:none;
+color:#333;
+background:chartreuse;
+border:none;
+border-radius:3rem;
+font-size: 30px;
+}
+
+.btn:hover{
+background:#333;
+color:#fff;
+}
+
+h1.a{
+text-shadow: 0.2rem 0.2rem steelblue;
+}

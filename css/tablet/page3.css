@@ -1,0 +1,105 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background:url(../../img/om.jpeg)no-repeat center center/cover;
+    color:#fff;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    font-size: 20px;
+    --animate-speed:1s;
+}
+
+header p{
+    color:purple;
+    font-size: 25px;
+
+}
+
+.container{
+    display:inline-block;
+}
+
+
+.container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:crimson;
+}
+
+img{
+    display:inline-block;
+    justify-content: space-evenly;
+    align-items:center;
+    width:430px;
+    height:300px; 
+}
+
+.box{
+    display:inline-block;
+    justify-content: center;
+    padding: 3rem;
+    margin:1rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    display:inline-block;
+    /* text-align: centser; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding:8px 10px;
+    text-decoration:none;
+    color:#333;
+    background:chartreuse;
+    border:none;
+    border-radius:3rem;
+}
+
+
+.btn:hover{
+    background:#333;
+    color:#fff;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:crimson;
+    font-size:2rem;
+}
+
+/* page animation */
+#page-3 h1{
+transform: translateY(-1200px);
+animation:heading var(--animate-speed)forwards ease-in;
+
+} 
+
+#page-3 p{
+transform: translateX(-1800px);
+animation:text var(--animate-speed)forwards ease-in 1s;
+} 
+
+/* keyframe */
+@keyframes heading{
+to{
+    transform: translateY(0); 
+}
+}
+
+@keyframes text{
+to{
+    transform: translateX(0); 
+}
+}
+
+h1.a{
+    text-shadow: 0.2rem 0.2rem steelblue;
+}

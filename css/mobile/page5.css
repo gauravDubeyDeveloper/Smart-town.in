@@ -1,0 +1,75 @@
+body{
+    background:#333;
+}
+
+.box{
+    background:url(../../img/mmm.gif)no-repeat center center/cover;
+    width: 200px;
+    height:200px;
+    position: relative;
+    top:0;
+    left:0;
+    animation:animate1 5s forwards ease-in-out;
+
+}
+
+
+
+@keyframes animate1{
+    25%{
+        top:0;
+        left:390px;
+        background:url(../../img/mmm.gif)no-repeat center center/cover;
+        /* border-radius:50% 0 0 0; */
+    }
+    50%{
+        top:600px;
+        left:390px;
+        background:url(../../img/nnnn.gif)no-repeat center center/cover;;;
+        /* border-radius:50% 50% 0 0; */
+    }
+    75%{
+        top:600px;
+        left:0;
+        background:url(../../img/44.gif)no-repeat center center/cover;
+        /* border-radius:50% 50% 50% 0; */
+    }
+    100%{
+        top:0;
+        left:0;
+        background:url(../../img/vvvv.gif)no-repeat center center/cover;
+        /* border-radius:50% 50% 50% 50%; */
+
+    }
+
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30rem;
+    margin-left: 15rem;
+    /* padding: 20px; */
+}
+.btn {
+    display:inline-block;
+    /* text-align: centser; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding:8px 10px;
+    margin:0.4rem;
+    text-decoration:none;
+    color:#333;
+    background:chartreuse;
+    border:none;
+    border-radius:1rem;
+}
+
+
+.btn:hover{
+    background:orange;
+    color:#fff;
+}

@@ -8,3 +8,14 @@ h1{
 body{
     background:#333;
 }
+
+header{
+    
+    /* align-items: center */
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size: 25px;
+}

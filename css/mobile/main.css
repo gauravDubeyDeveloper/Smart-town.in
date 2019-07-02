@@ -1,9 +1,14 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background:url(../../img/2.jpg)no-repeat center center/cover;
+    background:url(../../img/llll.jpg)no-repeat center center/cover;
     color:#fff;
     overflow:hidden;
     /* max-width:  1110px; */
+}
+
+a{
+    text-decoration:none;
+    color:black;
 }
 
 .btn {

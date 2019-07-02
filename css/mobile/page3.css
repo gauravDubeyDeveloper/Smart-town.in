@@ -1,0 +1,78 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+}
+
+body{
+    background:#333;
+}
+
+header{
+    
+    /* align-items: center */
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size: 25px;
+}
+
+.box{
+    background:url(../../img/ll.gif)no-repeat center center/cover;
+    width: 400px;
+    height:300px;
+    position: relative;
+    top:0;
+    left:0;
+    animation:animate1 5s forwards ease-in-out;
+
+}
+
+
+
+@keyframes animate1{
+    25%{
+        top:0;
+        left:950px;
+        background:url(../../img/ll.gif)no-repeat center center/cover;
+        /* border-radius:50% 0 0 0; */
+    }
+    25%{
+        top:30px;
+        right:950px;
+        background:url(../../img/777.gif)no-repeat center center/cover;;;
+        /* border-radius:50% 50% 0 0; */
+    }
+
+
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0.4rem; */
+}
+.btn {
+    /* display:inline-block; */
+    /* text-align: centser; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding:15px 10px;
+    margin:0.4rem;
+    margin-top:20px;
+    text-decoration:none;
+    color:#333;
+    background:chartreuse;
+    border:none;
+    border-radius:3rem;
+}
+
+.btn:hover{
+    background:#333;
+    color:#fff;
+}

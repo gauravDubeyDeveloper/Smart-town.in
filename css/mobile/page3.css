@@ -32,24 +32,6 @@ p{
 }
 
 
-
-@keyframes animate1{
-    25%{
-        top:0;
-        left:950px;
-        background:url(../../img/ll.gif)no-repeat center center/cover;
-        /* border-radius:50% 0 0 0; */
-    }
-    /* 25%{
-        top:30px;
-        right:950px;
-        background:url(../../img/777.gif)no-repeat center center/cover;;;
-        /* border-radius:50% 50% 0 0; */
-    } */
-
-
-}
-
 .btns{
     display: flex;
     justify-content: center;

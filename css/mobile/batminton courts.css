@@ -1,0 +1,40 @@
+body{
+    background: teal;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color:brown;
+    font-size: 25px;
+    
+}
+    
+    
+    h1 {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        justify-content: center;
+        color:red;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    h1{
+        text-shadow: 0.2rem 0.2rem tan;
+    }
+
+    .container{
+        display:flex;
+        font-size:25px;
+        /* flex-direction: column; */
+    }
+    
+    .box p{
+        text-decoration: none;
+    }
+    
+    

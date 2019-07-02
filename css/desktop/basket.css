@@ -1,5 +1,5 @@
 body{
-    background:tan;
+    background:gold;
 }
 
 p{
@@ -21,6 +21,10 @@ p{
         color:red;
         font-family: Arial, Helvetica, sans-serif;
         
+    }
+
+    h1{
+        text-shadow: 0.2rem 0.2rem hotpink;
     }
 
     h1{

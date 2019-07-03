@@ -18,13 +18,13 @@ body{
 @keyframes animate1{
     25%{
         top:0;
-        left:170px;
+        left:190px;
         background:url(../../img/ooooo.gif)no-repeat center center/cover;
         /* border-radius:50% 0 0 0; */
     }
     50%{
         top:100px;
-        left:170px;
+        left:190px;
         background:url(../../img/nnnn.gif)no-repeat center center/cover;;;
         /* border-radius:50% 50% 0 0; */
     }

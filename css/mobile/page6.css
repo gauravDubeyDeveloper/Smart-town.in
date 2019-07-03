@@ -18,18 +18,18 @@ body{
 @keyframes animate1{
     25%{
         top:0;
-        left:190px;
+        left:220px;
         background:url(../../img/ooooo.gif)no-repeat center center/cover;
         /* border-radius:50% 0 0 0; */
     }
     50%{
-        top:300px;
-        left:190px;
+        top:400px;
+        left:220px;
         background:url(../../img/nnnn.gif)no-repeat center center/cover;;;
         /* border-radius:50% 50% 0 0; */
     }
     75%{
-        top:300px;
+        top:400px;
         left:0;
         background:url(../../img/44.gif)no-repeat center center/cover;
         /* border-radius:50% 50% 50% 0; */
@@ -54,7 +54,7 @@ body{
     /* padding: 20px; */
 }
 .btn {
-    display:inline-block;
+    /* display:inline-block; */
     /* text-align: centser; */
     /* display: flex; */
     /* justify-content: center */
